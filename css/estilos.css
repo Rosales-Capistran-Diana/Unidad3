@@ -18,6 +18,11 @@ h2 {
     font-size: 3rem;
     color: #A64D79;
 }
+h3 {
+    text-align: center;
+    font-size: 3rem;
+    color: #A64D79;
+}
 .bento{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
