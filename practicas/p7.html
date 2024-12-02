@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <script src="../JS/p7.js"></script>
+</head>
+<body>
+
+    <h1>Práctica 7</h1>
+    <h2>Menú de navegación</h2> 
+    
+    <nav id="menu">
+        <ul>
+            <li><a href="https://www.primevideo.com/-/es/detail/El-Protegido/0PZ13XZNJ7GX3X21YBET4D447L">El protegido</a></li>
+            <li><a href="https://www.netflix.com/title/80124506">Fragmentado</a></li>
+            <li><a href="https://www.primevideo.com/-/es/detail/Glass/0KVQE2KNDWUEKLVHYESMUQZ1OO">Glass</a></li>
+            <li><a href="https://www.netflix.com/title/80126335">La razón de estar contigo</a></li>
+            <li><a href="https://tv.apple.com/us/movie/spy-x-family-codigo-blanco/umc.cmc.7ao63rd59x4cjvzovfviibu2i?l=es-MX">Spy x Family Código: Blanco</a></li>
+        </ul>
+    </nav>
+
+    <div id="info">
+    <h3>¿Se podrá realizar la selección de un hijo de otro elemento que ya es un hijo?</h3>
+    <p>Sí, se puede seleccionar un hijo de otro elemento, en JavaScript: </p>
+    <ul>
+        <li>Para seleccionar el elemento padre de otro elemento, se puede utilizar la propiedad parentNode.</li>
+        <li>Para obtener los hijos de un elemento, se puede utilizar la propiedad Node.childNodes. Esta propiedad devuelve una colección de nodos hijos del elemento.</li>
+        <li>Para seleccionar solo los elementos hijos directos de un elemento, se puede utilizar el selector hijos directos parent > child. Este selector es útil cuando se quiere afectar solo a los hijos inmediatos de una lista o tabla. </li>
+        <li>Para seleccionar todos los hijos de un elemento padre, se puede utilizar querySelectorAll(".hijo"). </li>
+        <li>Para buscar hijos de un elemento, se puede utilizar child() o find(). </li>
+    </ul>
+</div>
+
+<footer id="botones">
+    <button onclick="eliminar()">Eliminar película</button>
+    <button onclick="añadir()">Añadir película</button>
+</footer>
+
+
+</body>
+</html>
