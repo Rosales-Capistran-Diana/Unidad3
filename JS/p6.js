@@ -31,7 +31,5 @@ function modificar() {
         cuadro.style.backgroundColor = "pink";
         cuadro.style.padding = "";
     });
-});
-
-    
+});  
 }
